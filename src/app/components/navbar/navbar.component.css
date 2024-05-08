@@ -1,0 +1,26 @@
+mat-toolbar {
+  height: 80px;
+}
+
+.container-img-profile {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.container-img-profile img {
+  width: 100%;
+  border-radius: 50px;
+}
+
+.container-buttons-nav button {
+  height: 45px;
+}
+
+.container-buttons-nav svg {
+  font-size: 32px !important;
+  width: 3rem;
+  height: 3rem;
+}
+
