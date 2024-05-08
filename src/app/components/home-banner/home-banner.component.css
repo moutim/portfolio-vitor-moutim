@@ -1,0 +1,39 @@
+.article-banner-home {
+  height: 85%;
+  background-color:  #EB3850;
+  /* background-image: url('../../../assets/background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; */
+  display: flex;
+  align-items: center;
+}
+
+.article-banner-home > div {
+  color: white;
+  width: 40%;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-banner-home div h2 {
+  font-size: 45px;
+  line-height: 60px;
+}
+
+.article-banner-home div p {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.article-banner-home button {
+  height: 45px;
+  width: 180px;
+}
+
+.container-buttons-banner {
+  gap: 20px !important;
+  margin-top: 10px;
+  display: flex;
+}

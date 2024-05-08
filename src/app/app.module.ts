@@ -7,12 +7,14 @@ import { MaterialModule } from './shared/material/material.module';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NavbarModule } from './components/navbar/navbar.module';
+import { HomeBannerComponent } from './components/home-banner/home-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeBannerComponent
   ],
   imports: [
     BrowserModule,
