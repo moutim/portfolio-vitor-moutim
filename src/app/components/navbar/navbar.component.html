@@ -1,18 +1,22 @@
 <mat-toolbar color="white">
-  <div class="container-img-profile">
-    <img src="https://media.licdn.com/dms/image/C4E03AQHG6-SjnzUhXQ/profile-displayphoto-shrink_800_800/0/1646761909476?e=1720656000&v=beta&t=bZ-k28aiNpsqZ0NbOX-Q--nhg6615Koj-nHc5S8MoTY" alt="Foto do Vitor Moutim">
-    <h1>Vitor Moutim</h1>
-  </div>
+  <header>
+    <div class="container-img-profile">
+      <img
+        src="https://media.licdn.com/dms/image/C4E03AQHG6-SjnzUhXQ/profile-displayphoto-shrink_800_800/0/1646761909476?e=1720656000&v=beta&t=bZ-k28aiNpsqZ0NbOX-Q--nhg6615Koj-nHc5S8MoTY"
+        alt="Foto do Vitor Moutim">
+      <h1>Vitor Moutim</h1>
+    </div>
 
-  <div class="container-buttons-nav">
-    <button mat-flat-button color="primary">Conversar no WhatsApp</button>
+    <div class="container-buttons-nav">
+      <button mat-flat-button color="primary">Conversar no WhatsApp</button>
 
-    <!-- <button mat-raised-button> -->
-      <ng-icon name="octMarkGithub" style="width: 3rem; height: 3rem;"></ng-icon>
-    <!-- </button> -->
+      <button mat-stroked-button>
+        <img src="../../../assets/github.svg" alt="Icone do Github">
+      </button>
 
-    <button mat-raised-button>
-      <ng-icon name="octMarkGithub"></ng-icon>
-    </button>
-  </div>
+      <button mat-stroked-button>
+        <img src="../../../assets/linkedin.svg" alt="Icone do Linkedin">
+      </button>
+    </div>
+  </header>
 </mat-toolbar>

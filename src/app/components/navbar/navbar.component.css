@@ -3,10 +3,11 @@ mat-toolbar {
 }
 
 .container-img-profile {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 
 .container-img-profile img {
@@ -14,13 +15,25 @@ mat-toolbar {
   border-radius: 50px;
 }
 
+.container-buttons-nav {
+  gap: 10px !important;
+  display: flex;
+}
+
 .container-buttons-nav button {
   height: 45px;
 }
 
-.container-buttons-nav svg {
-  font-size: 32px !important;
-  width: 3rem;
-  height: 3rem;
+.container-buttons-nav img {
+  width: 20px;
+  height: 20px;
+}
+
+header {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
 }
 
