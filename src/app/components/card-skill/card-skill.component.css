@@ -17,7 +17,7 @@
   height: 85px;
 }
 
-.mat-mdc-card-content {
+.card-skills .mat-mdc-card-content {
   display: flex !important;
   justify-content: center;
   align-items: center;

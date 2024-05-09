@@ -1,0 +1,67 @@
+.article-projects {
+  display: flex;
+  padding: 30px 10%;
+  gap: 100px;
+  margin: 40px 0;
+}
+
+.mat-mdc-unelevated-button.mat-primary {
+  background-color: #EB3850;
+}
+
+.article-projects section button {
+  height: 45px;
+}
+
+.section-introduction-projects {
+  width: 35%;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.section-introduction-projects h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.section-introduction-projects p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 25px 0;
+}
+
+.section-projects {
+  width: 50%;
+  overflow-y: auto;
+  max-height: calc(100vh - 50px);
+}
+
+.section-projects h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.section-projects h2 span {
+  color: #EB3850;
+}
+
+.container-cards-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.article-projects section::-webkit-scrollbar {
+  width: 2px;
+}
+
+.article-projects section::-webkit-scrollbar-thumb {
+  background-color: #EB3850;
+  border-radius: 6px;
+}
+
+.article-projects section::-webkit-scrollbar-thumb:hover {
+  background-color: #C0263E;
+}
+

@@ -1,0 +1,38 @@
+.card-project {
+  border-radius: 0;
+}
+
+.card-project mat-card-content {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px 0;
+}
+
+.card-project button {
+  height: 45px;
+  width: 150px;
+}
+
+.card-project h4 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card-project p {
+  line-height: 30px;
+  font-size: 16px;
+}
+
+.card-project span {
+  background-color: #eb385046;
+  color: #eb3850;
+  padding: 3px 10px;
+  border-radius: 5px;
+  line-height: 30px;
+}
+
+.container-buttons-projects {
+  display: flex;
+  gap: 40px;
+}

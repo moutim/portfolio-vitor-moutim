@@ -10,6 +10,8 @@ import { NavbarModule } from './components/navbar/navbar.module';
 import { HomeBannerComponent } from './components/home-banner/home-banner.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { CardSkillComponent } from './components/card-skill/card-skill.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { CardProjectComponent } from './components/card-project/card-project.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { CardSkillComponent } from './components/card-skill/card-skill.component
     NavbarComponent,
     HomeBannerComponent,
     SkillsComponent,
-    CardSkillComponent
+    CardSkillComponent,
+    ProjectsComponent,
+    CardProjectComponent
   ],
   imports: [
     BrowserModule,
