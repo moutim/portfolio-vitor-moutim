@@ -6,13 +6,18 @@
   </section>
 
   <section class="section-projects">
+    <p>Projetos</p>
     <h2>Projetos que eu mais me <span>orgulho</span> na minha trajetória.</h2>
 
     <div class="container-cards-projects">
-      <app-card-project></app-card-project>
-      <app-card-project></app-card-project>
-      <app-card-project></app-card-project>
-      <app-card-project></app-card-project>
+      <app-card-project
+        *ngFor="let item of projectsInfo"
+        [title]="item.title"
+        [tech]="item.tech"
+        [description]="item.description"
+        [repo]="item.repo"
+        [deploy]="item.deploy"
+      />
     </div>
   </section>
 </article>

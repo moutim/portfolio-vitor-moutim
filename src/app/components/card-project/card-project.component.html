@@ -1,19 +1,18 @@
 <mat-card class="card-project">
   <mat-card-content>
-    <h4>case-psel-xp-backend</h4>
-    <p>Linguagem: <span>JavaScript</span></p>
-    <p>Essa aplicação simula um ambiente de uma corretora para investimentos em ações. Após ter realizada o cadastro ou
-      o login, você receberá um token de autorização para realizar funcões com as ações e a conta do cliente.</p>
+    <h4>{{ title }}</h4>
+    <p class="card-project-tech">Tecnologia: <span>{{ tech }}</span></p>
+    <p class="card-project-description">{{ description }}</p>
     <div class="container-buttons-projects">
-      <button mat-stroked-button>
+      <a mat-stroked-button [href]="repo" target="_blank">
         <mat-icon fontIcon="code"></mat-icon>
         Repositório
-      </button>
+      </a>
 
-      <button mat-stroked-button>
+      <a mat-stroked-button [href]="deploy" target="_blank">
         <mat-icon fontIcon="open_in_new"></mat-icon>
         Aplicação
-      </button>
+      </a>
     </div>
   </mat-card-content>
 </mat-card>

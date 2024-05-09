@@ -5,6 +5,10 @@
   margin: 40px 0;
 }
 
+.article-projects p {
+  color: #495057;
+}
+
 .mat-mdc-unelevated-button.mat-primary {
   background-color: #EB3850;
 }
@@ -35,21 +39,28 @@
   width: 50%;
   overflow-y: auto;
   max-height: calc(100vh - 50px);
+  padding: 0 20px;
 }
 
 .section-projects h2 {
   font-size: 28px;
   font-weight: 500;
+  margin-bottom: 50px;
 }
 
 .section-projects h2 span {
   color: #EB3850;
 }
 
+.section-projects > p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
 .container-cards-projects {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
 }
 
 .article-projects section::-webkit-scrollbar {
