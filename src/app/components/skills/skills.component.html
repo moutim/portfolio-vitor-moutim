@@ -1,0 +1,7 @@
+<section class="section-skills">
+  <h3>Tecnologias em que eu desenvolvo</h3>
+
+  <div class="container-skills" >
+    <app-card-skill *ngFor="let item of skillsInfo" [name]="item.name" [src]="item.path" />
+  </div>
+</section>

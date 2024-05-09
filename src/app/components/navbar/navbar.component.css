@@ -1,5 +1,6 @@
 mat-toolbar {
   height: 80px;
+  padding: 0;
 }
 
 .mat-mdc-unelevated-button.mat-primary {

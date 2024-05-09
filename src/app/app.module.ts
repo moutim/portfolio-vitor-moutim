@@ -8,13 +8,17 @@ import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NavbarModule } from './components/navbar/navbar.module';
 import { HomeBannerComponent } from './components/home-banner/home-banner.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { CardSkillComponent } from './components/card-skill/card-skill.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    HomeBannerComponent
+    HomeBannerComponent,
+    SkillsComponent,
+    CardSkillComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,20 @@
+.section-skills {
+  padding: 50px 10%;
+  background-color: #F1F3F5;
+}
+
+.section-skills h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.container-skills {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.container-skills > app-card-skill {
+  width: 20%;
+}
