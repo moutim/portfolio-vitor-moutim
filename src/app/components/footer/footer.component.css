@@ -1,0 +1,25 @@
+footer {
+  height: 160px;
+  background-color: #EB3850;
+  color: white;
+}
+
+footer > button {
+  text-align: center;
+}
+
+footer > div {
+  display: flex;
+  height: 100%;
+  margin: auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer p {
+  font-size: 18px;
+  font-weight: 500;
+}

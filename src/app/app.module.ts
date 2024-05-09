@@ -12,6 +12,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { CardSkillComponent } from './components/card-skill/card-skill.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CardProjectComponent } from './components/card-project/card-project.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardProjectComponent } from './components/card-project/card-project.com
     SkillsComponent,
     CardSkillComponent,
     ProjectsComponent,
-    CardProjectComponent
+    CardProjectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
