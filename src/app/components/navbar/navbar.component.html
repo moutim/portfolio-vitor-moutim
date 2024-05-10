@@ -1,4 +1,4 @@
-<mat-toolbar color="white">
+<mat-toolbar color="white" >
   <header>
     <div class="container-img-profile">
       <img
@@ -8,15 +8,22 @@
     </div>
 
     <div class="container-buttons-nav">
-      <button mat-flat-button color="primary">Conversar no WhatsApp</button>
+      <button mat-raised-button color="primary" (click)="downloadCurriculum()">
+        Baixar curriculo
+        <mat-icon fontIcon="article"></mat-icon>
+      </button>
 
-      <button mat-stroked-button>
+      <a mat-raised-button href="https://wa.me/5511998181280" target="_blank">
+        <img src="../../../assets/whatsapp.svg" alt="Icone do Github">
+      </a>
+
+      <a mat-raised-button href="https://github.com/moutim" target="_blank">
         <img src="../../../assets/github.svg" alt="Icone do Github">
-      </button>
+      </a>
 
-      <button mat-stroked-button>
+      <a mat-raised-button href="https://www.linkedin.com/in/vitormoutim/" target="_blank">
         <img src="../../../assets/linkedin.svg" alt="Icone do Linkedin">
-      </button>
+      </a>
     </div>
   </header>
 </mat-toolbar>

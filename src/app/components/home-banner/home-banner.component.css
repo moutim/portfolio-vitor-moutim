@@ -1,10 +1,6 @@
 .article-banner-home {
-  height: 85%;
+  height: 95%;
   background-color:  #EB3850;
-  /* background-image: url('../../../assets/background.svg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; */
   display: flex;
   align-items: center;
 }
@@ -27,7 +23,7 @@
   line-height: 30px;
 }
 
-.article-banner-home button {
+.article-banner-home a {
   height: 45px;
   width: 180px;
 }

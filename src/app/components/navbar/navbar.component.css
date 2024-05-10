@@ -1,9 +1,16 @@
 mat-toolbar {
   height: 80px;
   padding: 0;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: .1px solid rgba(0, 0, 0, 0.15);
 }
 
-.mat-mdc-unelevated-button.mat-primary {
+.mat-mdc-raised-button.mat-primary {
   background-color: #EB3850;
 }
 
@@ -25,7 +32,7 @@ mat-toolbar {
   display: flex;
 }
 
-.container-buttons-nav button {
+.container-buttons-nav a, .container-buttons-nav button {
   height: 45px;
 }
 
@@ -42,3 +49,6 @@ header {
   align-items: center;
 }
 
+::ng-deep .container-buttons-nav .mdc-button__label {
+  display: flex !important;
+}
