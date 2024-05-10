@@ -82,7 +82,7 @@ header {
 }
 
 .container-buttons-nav-mobile > div a {
-  width: 25%;
+  width: 30%;
 }
 
 @media screen and (max-width: 1000px) {
