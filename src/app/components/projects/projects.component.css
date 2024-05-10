@@ -76,6 +76,11 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .section-projects {
+    overflow-y: hidden;
+    max-height: 100%;
+  }
+
   .article-projects {
     flex-direction: column-reverse;
   }
