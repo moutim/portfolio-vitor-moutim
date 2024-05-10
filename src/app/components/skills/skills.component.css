@@ -38,6 +38,7 @@
   .container-skills {
     flex-wrap: nowrap;
     overflow-x: auto;
+    touch-action: pan-y;
     gap: 50px;
   }
 }
