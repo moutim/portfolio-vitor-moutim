@@ -75,3 +75,14 @@
   background-color: #C0263E;
 }
 
+@media screen and (max-width: 1050px) {
+  .article-projects {
+    flex-direction: column-reverse;
+  }
+
+  .section-projects, .section-introduction-projects {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+}
