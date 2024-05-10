@@ -32,17 +32,16 @@ mat-toolbar {
   display: flex;
 }
 
-.container-buttons-nav a, .container-buttons-nav button {
+header a, header button, .container-buttons-nav-mobile a, .container-buttons-nav-mobile button {
   height: 45px;
 }
 
-.container-buttons-nav img {
+.container-buttons-nav img, .container-buttons-nav-mobile img {
   width: 20px;
   height: 20px;
 }
 
 header {
-  /* width: 80%; */
   display: flex;
   justify-content: space-between;
   margin: auto;
@@ -51,4 +50,64 @@ header {
 
 ::ng-deep .container-buttons-nav .mdc-button__label {
   display: flex !important;
+}
+
+.button-menu-mobile {
+  display: none;
+}
+
+.container-buttons-nav-mobile {
+  position: fixed;
+  top: 80px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-buttons-nav-mobile > div {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.container-buttons-nav-mobile > div div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-buttons-nav-mobile > div a {
+  width: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+  .button-menu-mobile {
+    display: flex;
+  }
+
+  .container-buttons-nav {
+    display: none;
+  }
+
+  mat-toolbar {
+    height: 70px;
+  }
+
+  .container-img-profile {
+    width: 35px;
+    height: 35px;
+  }
+
+  header h1 {
+    font-size: 18px;
+  }
+
+  .container-buttons-nav-mobile {
+    top: 70px;
+  }
 }

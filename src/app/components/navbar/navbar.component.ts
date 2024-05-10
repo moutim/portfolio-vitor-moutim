@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+  menuIsOpen: boolean = false;
+
   downloadCurriculum() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
@@ -14,5 +16,9 @@ export class NavbarComponent {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+  }
+
+  openMenu() {
+    this.menuIsOpen = !this.menuIsOpen;
   }
 }

@@ -7,6 +7,12 @@
       <h1>Vitor Moutim</h1>
     </div>
 
+    <div class="button-menu-mobile">
+      <button mat-icon-button (click)="openMenu()">
+        <mat-icon>{{ !menuIsOpen ? 'menu' : 'close' }}</mat-icon>
+      </button>
+    </div>
+
     <div class="container-buttons-nav">
       <button mat-raised-button color="primary" (click)="downloadCurriculum()">
         Baixar curriculo
@@ -27,3 +33,25 @@
     </div>
   </header>
 </mat-toolbar>
+<div class="container-buttons-nav-mobile" *ngIf="menuIsOpen">
+  <div>
+    <button mat-raised-button color="primary" (click)="downloadCurriculum()">
+      Baixar curriculo
+      <mat-icon fontIcon="article"></mat-icon>
+    </button>
+
+    <div>
+      <a mat-raised-button href="https://wa.me/5511998181280" target="_blank">
+        <img src="../../../assets/whatsapp.svg" alt="Icone do Github">
+      </a>
+
+      <a mat-raised-button href="https://github.com/moutim" target="_blank">
+        <img src="../../../assets/github.svg" alt="Icone do Github">
+      </a>
+
+      <a mat-raised-button href="https://www.linkedin.com/in/vitormoutim/" target="_blank">
+        <img src="../../../assets/linkedin.svg" alt="Icone do Linkedin">
+      </a>
+    </div>
+  </div>
+</div>
