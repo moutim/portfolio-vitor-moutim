@@ -63,7 +63,7 @@
 }
 
 .article-projects section::-webkit-scrollbar {
-  width: 2px;
+  width: 5px;
 }
 
 .article-projects section::-webkit-scrollbar-thumb {
