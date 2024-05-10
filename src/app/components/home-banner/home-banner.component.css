@@ -7,8 +7,7 @@
 
 .article-banner-home > div {
   color: white;
-  width: 40%;
-  margin-left: 10%;
+  width: 60%;
   display: flex;
   flex-direction: column;
 }

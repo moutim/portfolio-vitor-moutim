@@ -42,7 +42,7 @@ mat-toolbar {
 }
 
 header {
-  width: 80%;
+  /* width: 80%; */
   display: flex;
   justify-content: space-between;
   margin: auto;

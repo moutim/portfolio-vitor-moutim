@@ -1,6 +1,5 @@
 .article-projects {
   display: flex;
-  padding: 30px 10%;
   gap: 100px;
   margin: 40px 0;
 }
