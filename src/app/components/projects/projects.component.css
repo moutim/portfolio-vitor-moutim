@@ -80,9 +80,17 @@
     flex-direction: column-reverse;
   }
 
+  .container-cards-projects {
+    gap: 15px;
+  }
+
   .section-projects, .section-introduction-projects {
     width: 100%;
     margin: auto;
     padding: 0;
+  }
+
+  .section-projects h2 {
+    margin-bottom: 20px;
   }
 }
