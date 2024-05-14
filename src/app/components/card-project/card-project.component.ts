@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import ITranslate from '../../interfaces/ITranslate';
+import { TranslateService } from '../../services/translate/translate.service';
 
 @Component({
   selector: 'app-card-project',
@@ -11,4 +13,9 @@ export class CardProjectComponent {
   @Input() description: string = '';
   @Input() repo: string = '';
   @Input() deploy: string = '';
+  languageFile: ITranslate = this.translateService.languageFile;
+
+  constructor(
+    private translateService: TranslateService
+  ) { }
 }

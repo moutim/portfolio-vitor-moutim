@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import ITranslate from '../../interfaces/ITranslate';
+import { TranslateService } from '../../services/translate/translate.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  languageFile: ITranslate = this.translateService.languageFile;
 
+  constructor(
+    private translateService: TranslateService
+  ) { }
 }

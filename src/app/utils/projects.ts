@@ -1,4 +1,6 @@
-const projects = [
+import IProject from "../interfaces/IProject";
+
+const projects: IProject[] = [
   {
     title: 'Germinne',
     tech: 'React, ContextAPI, mdb-react-ui-kit, formspree',

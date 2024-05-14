@@ -1,12 +1,10 @@
 <article class="article-banner-home limit" id="home">
   <div>
-    <h2>Criando experiências por meio da tecnologia</h2>
-    <p>
-      Profissional dedicado e entusiasta da tecnologia, buscando constantemente novos desafios e oportunidades para aplicar e aprimorar minhas habilidades. Formado em Programador Web Java pelo Instituto PROA e Desenvolvedor Full Stack pela Trybe, e atualmente cursando Análise e Desenvolvimento de Sistemas na FIAP, estou preparado para contribuir em projetos que demandem expertise em desenvolvimento de sistemas e tecnologias web.
-    </p>
+    <h2>{{ languageFile.title }}</h2>
+    <p>{{ languageFile.bio }}</p>
     <div class="container-buttons-banner">
-      <a mat-flat-button href="#projects">Projetos</a>
-      <a mat-flat-button href="#skills">Tecnologias</a>
+      <a mat-flat-button href="#projects">{{ languageFile.buttonProjects }}</a>
+      <a mat-flat-button href="#skills">{{ languageFile.buttonTechnologies }}</a>
     </div>
   </div>
 </article>

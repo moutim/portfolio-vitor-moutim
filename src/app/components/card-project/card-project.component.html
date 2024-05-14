@@ -1,17 +1,17 @@
 <mat-card class="card-project">
   <mat-card-content>
     <h4>{{ title }}</h4>
-    <p class="card-project-tech">Tecnologia: <span>{{ tech }}</span></p>
+    <p class="card-project-tech">{{ languageFile.buttonTechnologies }}: <span>{{ tech }}</span></p>
     <p class="card-project-description">{{ description }}</p>
     <div class="container-buttons-projects">
       <a mat-stroked-button [href]="repo" target="_blank">
         <mat-icon fontIcon="code"></mat-icon>
-        Repositório
+        {{ languageFile.buttonRepo }}
       </a>
 
       <a mat-stroked-button [href]="deploy" target="_blank">
         <mat-icon fontIcon="open_in_new"></mat-icon>
-        Aplicação
+        {{ languageFile.buttonApp }}
       </a>
     </div>
   </mat-card-content>

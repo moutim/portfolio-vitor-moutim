@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import ITranslate from '../../interfaces/ITranslate';
+import { TranslateService } from '../../services/translate/translate.service';
 
 @Component({
   selector: 'app-navbar',
@@ -9,8 +11,13 @@ export class NavbarComponent {
   menuIsOpen: boolean = false;
   flag: string = '../../../assets/br.svg';
   flagMenu: string = '../../../assets/us.svg';
-  toolTip: string = 'PT-BR';
+  toolTip: string = 'pt-BR';
   toolTipMenu: string = 'en-US';
+  languageFile: ITranslate = this.translateService.languageFile;
+
+  constructor(
+    private translateService: TranslateService
+  ) { }
 
   downloadCurriculum() {
     const link = document.createElement('a');
@@ -34,5 +41,8 @@ export class NavbarComponent {
     this.flagMenu = flag;
     this.toolTip = this.toolTipMenu;
     this.toolTipMenu = toolTip;
+
+    console.log(this.toolTipMenu);
+    this.translateService.changeLanguage(this.toolTipMenu);
   }
 }

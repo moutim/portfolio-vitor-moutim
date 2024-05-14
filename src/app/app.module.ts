@@ -13,6 +13,7 @@ import { CardSkillComponent } from './components/card-skill/card-skill.component
 import { ProjectsComponent } from './components/projects/projects.component';
 import { CardProjectComponent } from './components/card-project/card-project.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TranslateService } from './services/translate/translate.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { FooterComponent } from './components/footer/footer.component';
     NavbarModule,
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    TranslateService
   ],
   bootstrap: [AppComponent]
 })

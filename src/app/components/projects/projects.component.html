@@ -1,19 +1,19 @@
 <article class="article-projects limit" id="projects">
   <section class="section-introduction-projects">
-    <h4>Vamos bater um papo?</h4>
-    <p>Estou sempre disponível no LinkedIn para discutir os projetos em que estou trabalhando e os processos que estou utilizando no dia a dia. Adoraria trocar uma boa conversa por lá e discutir ideias, tendências da área e oportunidades de colaboração. Aguardo sua mensagem!</p>
+    <h4>{{ languageFile.contactTitle }}</h4>
+    <p>{{ languageFile.contactText }}</p>
     <a mat-flat-button href="https://www.linkedin.com/in/vitormoutim/" color="primary" target="_blank">
-      Acessar meu perfil do Linkedin
+      {{ languageFile.contactButton }}
     </a>
   </section>
 
   <section class="section-projects">
-    <p>Projetos</p>
-    <h2>Projetos que eu mais me <span>orgulho</span> na minha trajetória.</h2>
+    <p>{{ languageFile.projectsTitle }}</p>
+    <h2>{{ languageFile.projectsSubtitle }}</h2>
 
     <div class="container-cards-projects">
       <app-card-project
-        *ngFor="let item of projectsInfo"
+        *ngFor="let item of languageFile.projects"
         [title]="item.title"
         [tech]="item.tech"
         [description]="item.description"
