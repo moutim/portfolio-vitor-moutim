@@ -30,6 +30,16 @@
       <a mat-raised-button href="https://www.linkedin.com/in/vitormoutim/" target="_blank">
         <img src="../../../assets/linkedin.svg" alt="Icone do Linkedin">
       </a>
+
+
+      <button [matMenuTriggerFor]="menu" mat-raised-button class="flag-menu" class="flag-menu" [matTooltip]="toolTip" matTooltipClass="tooltip-style" matTooltipPosition="below" matTooltipHideDelay="200">
+        <img [src]="flag" alt="Bandeira">
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-raised-button class="flag-menu" (click)="changeLanguage()" [matTooltip]="toolTipMenu" matTooltipClass="tooltip-style" matTooltipPosition="below" matTooltipHideDelay="200">
+          <img [src]="flagMenu" alt="Bandeira do Brasil">
+        </button>
+      </mat-menu>
     </div>
   </header>
 </mat-toolbar>

@@ -41,6 +41,20 @@ header a, header button, .container-buttons-nav-mobile a, .container-buttons-nav
   height: 20px;
 }
 
+.flag-menu {
+  width: 120px;
+}
+
+.flag-menu img {
+  width: 33px;
+  height: 33px;
+  border-radius: 5%;
+}
+
+::ng-deep .flag-menu {
+  background-color: red;
+}
+
 header {
   display: flex;
   justify-content: space-between;
