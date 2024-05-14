@@ -13,4 +13,8 @@ export class FooterComponent {
   constructor(
     private translateService: TranslateService
   ) { }
+
+  ngDoCheck() {
+    this.languageFile = this.translateService.languageFile;
+  }
 }

@@ -13,17 +13,12 @@ export class TranslateService {
   constructor() { }
 
   changeLanguage(language: string) {
-    this.languageFile = enUS;
-
-    // if (language == 'pt-BR') {
-    //   console.log('here');
-
-    //   this.language = 'en-US';
-    //   this.languageFile = enUS;
-    // } else {
-    //   console.log('aqui');
-    //   this.language = 'pt-BR';
-    //   this.languageFile = ptBR;
-    // }
+    if (language == 'pt-BR') {
+      this.language = 'en-US';
+      this.languageFile = enUS;
+    } else {
+      this.language = 'pt-BR';
+      this.languageFile = ptBR;
+    }
   }
 }

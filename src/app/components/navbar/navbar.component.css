@@ -51,10 +51,6 @@ header a, header button, .container-buttons-nav-mobile a, .container-buttons-nav
   border-radius: 5%;
 }
 
-::ng-deep .flag-menu {
-  background-color: red;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -96,7 +92,20 @@ header {
 }
 
 .container-buttons-nav-mobile > div a {
-  width: 30%;
+  width: 20%;
+}
+
+.flag-menu-mobile {
+  width: 20%
+}
+
+.flag-menu-mobile-menu {
+  width: 100%;
+}
+
+.flag-menu-mobile-menu img {
+  width: 20px;
+  height: 20px;
 }
 
 @media screen and (max-width: 1000px) {

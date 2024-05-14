@@ -37,7 +37,7 @@
       </button>
       <mat-menu #menu="matMenu">
         <button mat-raised-button class="flag-menu" (click)="changeLanguage()" [matTooltip]="toolTipMenu" matTooltipClass="tooltip-style" matTooltipPosition="below" matTooltipHideDelay="200">
-          <img [src]="flagMenu" alt="Bandeira do Brasil">
+          <img [src]="flagMenu" alt="Bandeira">
         </button>
       </mat-menu>
     </div>
@@ -46,7 +46,7 @@
 <div class="container-buttons-nav-mobile" *ngIf="menuIsOpen">
   <div>
     <button mat-raised-button color="primary" (click)="downloadCurriculum()">
-      Baixar curriculo
+      {{ languageFile.downloadCV }}
       <mat-icon fontIcon="article"></mat-icon>
     </button>
 
@@ -62,6 +62,16 @@
       <a mat-raised-button href="https://www.linkedin.com/in/vitormoutim/" target="_blank">
         <img src="../../../assets/linkedin.svg" alt="Icone do Linkedin">
       </a>
+
+      <button [matMenuTriggerFor]="menu" mat-raised-button class="flag-menu-mobile" [matTooltip]="toolTip" matTooltipClass="tooltip-style" matTooltipPosition="below" matTooltipHideDelay="200">
+        <img [src]="flag" alt="Bandeira">
+      </button>
+
+      <mat-menu #menu="matMenu">
+        <button mat-raised-button class="flag-menu-mobile-menu" (click)="changeLanguage()" [matTooltip]="toolTipMenu" matTooltipClass="tooltip-style" matTooltipPosition="below" matTooltipHideDelay="200">
+          <img [src]="flagMenu" alt="Bandeira">
+        </button>
+      </mat-menu>
     </div>
   </div>
 </div>

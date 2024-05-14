@@ -18,4 +18,8 @@ export class CardProjectComponent {
   constructor(
     private translateService: TranslateService
   ) { }
+
+  ngDoCheck() {
+    this.languageFile = this.translateService.languageFile;
+  }
 }

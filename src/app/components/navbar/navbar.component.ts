@@ -19,11 +19,22 @@ export class NavbarComponent {
     private translateService: TranslateService
   ) { }
 
+  ngDoCheck() {
+    this.languageFile = this.translateService.languageFile;
+  }
+
   downloadCurriculum() {
     const link = document.createElement('a');
     link.setAttribute('target', '_blank');
-    link.setAttribute('href', '../../assets/VITOR_MOUTIM_PT-BR.pdf');
-    link.setAttribute('download', 'VITOR_MOUTIM_PT-BR.pdf');
+
+    if (this.toolTip == 'pt-BR') {
+      link.setAttribute('href', '../../assets/VITOR_MOUTIM_PT-BR.pdf');
+      link.setAttribute('download', 'VITOR_MOUTIM_PT-BR.pdf');
+    } else {
+      link.setAttribute('href', '../../assets/VITOR_MOUTIM_EN-US.pdf');
+      link.setAttribute('download', 'VITOR_MOUTIM_EN-US.pdf');
+    }
+
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

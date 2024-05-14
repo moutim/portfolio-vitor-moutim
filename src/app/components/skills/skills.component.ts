@@ -15,4 +15,8 @@ export class SkillsComponent {
   constructor(
     private translateService: TranslateService
   ) { }
+
+  ngDoCheck() {
+    this.languageFile = this.translateService.languageFile;
+  }
 }
