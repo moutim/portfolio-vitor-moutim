@@ -2,6 +2,7 @@ const skills = [
   { path: '../assets/csharp.svg', name: 'C#' },
   { path: '../assets/typescript.svg', name: 'TypeScript' },
   { path: '../assets/javascript.svg', name: 'JavaScript' },
+  { path: '../assets/sass.svg', name: 'Sass' },
   { path: '../assets/jquery.svg', name: 'jQuery' },
   { path: '../assets/python.svg', name: 'Python' },
   { path: '../assets/php.svg', name: 'Php' },
