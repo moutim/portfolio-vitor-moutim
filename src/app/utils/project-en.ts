@@ -23,6 +23,20 @@ const projectsEN: IProject[] = [
     deploy: 'https://angular-stats-spotify.vercel.app/',
   },
   {
+    title: 'PaintMate',
+    tech: 'React, TypeScript, Docker, Nest.JS',
+    description: 'PaintMate is a calculator designed to help the user determine the amount of paint needed to paint a room consisting of four walls.',
+    repo: 'https://github.com/moutim/calculadora-de-tintas-paintmate',
+    deploy: 'https://github.com/moutim/calculadora-de-tintas-paintmate',
+  },
+  {
+    title: 'Ecommerce VTEX',
+    tech: 'React, TypeScript, Scss',
+    description: 'This project is an e-commerce page developed in React and TypeScript, designed to display a product showcase. Product data is consumed from an endpoint, and when clicking on a product, a modal opens displaying detailed product information.',
+    repo: 'https://github.com/moutim/teste-front-end-jr',
+    deploy: 'https://teste-front-end-jr-moutims-projects.vercel.app/',
+  },
+  {
     title: 'MKS Development Challenge',
     tech: 'NestJS, TypeORM, Docker, Swagger, Postgresql, JWT',
     description: 'Project developed in a technical test for the company MKS Desenvolvimento de Sistemas. The application consists of an API for registering a movie catalog.',

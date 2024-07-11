@@ -23,6 +23,20 @@ const projects: IProject[] = [
     deploy: 'https://angular-stats-spotify.vercel.app/',
   },
   {
+    title: 'PaintMate',
+    tech: 'React, TypeScript, Docker, Nest.JS',
+    description: 'PaintMate é uma calculadora projetada para ajudar o usuário a determinar a quantidade de tinta necessária para pintar uma sala composta por quatro paredes.',
+    repo: 'https://github.com/moutim/calculadora-de-tintas-paintmate',
+    deploy: 'https://github.com/moutim/calculadora-de-tintas-paintmate',
+  },
+  {
+    title: 'Ecommerce VTEX',
+    tech: 'React, TypeScript, Scss',
+    description: 'Este projeto é uma página de e-commerce desenvolvida em React e TypeScript, destinada a exibir uma vitrine de produtos. Os dados dos produtos são consumidos de um endpoint, e ao clicar em um produto, um modal é aberto exibindo as informações detalhadas do produto.',
+    repo: 'https://github.com/moutim/teste-front-end-jr',
+    deploy: 'https://teste-front-end-jr-moutims-projects.vercel.app/',
+  },
+  {
     title: 'Desafio MKS Desenvolvimento',
     tech: 'NestJS, TypeORM, Docker, Swagger, Postgresql, JWT',
     description: 'Projeto desenvolvido em um teste técnico para a empresa MKS desenvolvimento de sistemas. A aplicação consiste em uma API para cadastro de uma catálogo de filmes.',
@@ -65,5 +79,4 @@ const projects: IProject[] = [
     deploy: 'https://moutim.github.io/Daily-Bugle-PROA/',
   },
 ];
-
 export default projects;
