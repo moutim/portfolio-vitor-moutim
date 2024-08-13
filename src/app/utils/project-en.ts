@@ -2,6 +2,13 @@ import IProject from "../interfaces/IProject";
 
 const projectsEN: IProject[] = [
   {
+    "title": "ATM Machine",
+    "tech": "Angular, ASP.NET, MySQL, JWT, SASS",
+    "description": "Developed for Itaú technical test, this full-stack project simulates the functionalities of an ATM, allowing withdrawals, deposits, transfers, statement consultations, and managing checking and savings accounts.",
+    "repo": "https://github.com/moutim/atm-machine",
+    "deploy": "https://github.com/moutim/atm-machine"
+  },
+  {
     title: 'Germinne',
     tech: 'React, ContextAPI, mdb-react-ui-kit, formspree',
     description: 'Germinne is a platform that seeks to revolutionize people\'s relationship with urban agriculture. Our main goal is to make growing gardens accessible, inclusive, and enjoyable for everyone, regardless of the available space or prior knowledge about horticulture. We aim to promote a healthier and more sustainable lifestyle by encouraging a connection with nature in the urban environment.',

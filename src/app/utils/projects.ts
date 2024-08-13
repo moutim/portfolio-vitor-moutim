@@ -2,6 +2,13 @@ import IProject from "../interfaces/IProject";
 
 const projects: IProject[] = [
   {
+    title: 'Caixa Eletrônico',
+    tech: 'Angular, ASP.NET, MySQL, JWT, SASS',
+    description: 'Desenvolvido para o teste técnico do Itaú, este projeto fullstack simula as funcionalidades de um caixa eletrônico, permitindo saques, depósitos, transferências, consulta de extrato, e gerenciando contas correntes e poupanças.',
+    repo: 'https://github.com/moutim/atm-machine',
+    deploy: 'https://github.com/moutim/atm-machine',
+  },
+  {
     title: 'Germinne',
     tech: 'React, ContextAPI, mdb-react-ui-kit, formspree',
     description: 'A Germinne é uma plataforma que busca revolucionar a relação das pessoas com a agricultura urbana. Nosso objetivo principal é tornar o cultivo de hortas acessível, inclusivo e prazeroso para todos, independentemente do espaço disponível ou do conhecimento prévio sobre horticultura. Buscamos promover um estilo de vida mais saudável e sustentável, incentivando a conexão com a natureza no ambiente urbano.',
